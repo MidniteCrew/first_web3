@@ -1,0 +1,94 @@
+{
+  "contractName": "Borrower",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Borrower.sol\":\"Borrower\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6\",\"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12\",\"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF\"]},\"project:/contracts/Borrower.sol\":{\"keccak256\":\"0xe924bab64b2f4d99d1d169b40da5d5901a2ce98d6a37bdd35f6045385b2ccfef\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://9431a68eb57ac05367f24d42c1938f48ab8edd84f2c6f468292ed6e50005af3f\",\"dweb:/ipfs/QmX1dGpsgAG9L6jdMs5xCYTXbunfccKRztULmNwGx6Rfpw\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600e575f80fd5b50603e80601a5f395ff3fe60806040525f80fdfea264697066735822122085a705cc643e6a9eb5a850fdefa9fd3ddebc7a87408c759c68e5749f878c87cc64736f6c63430008150033",
+  "deployedBytecode": "0x60806040525f80fdfea264697066735822122085a705cc643e6a9eb5a850fdefa9fd3ddebc7a87408c759c68e5749f878c87cc64736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "292:82:18:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "292:82:18:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: UNLICENSED\n\npragma solidity ^0.8.0;\n\n/// @notice This contract defines the logic for the person who wants a loan. They \n///         must define collateral (e.g. an NFT that represents ownership of something).\n\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\n\ncontract Borrower {\n\n    // event AskedLoan(address borrower, uint256 amount);\n\n\n}",
+  "sourcePath": "/Users/gabrielungur/Desktop/first_web3/smartContracts/contracts/Borrower.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Borrower.sol",
+    "exportedSymbols": {
+      "Borrower": [
+        7154
+      ],
+      "Context": [
+        2130
+      ],
+      "Ownable": [
+        147
+      ]
+    },
+    "id": 7155,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 7152,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "40:23:18"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/access/Ownable.sol",
+        "file": "@openzeppelin/contracts/access/Ownable.sol",
+        "id": 7153,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 7155,
+        "sourceUnit": 148,
+        "src": "238:52:18",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Borrower",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 7154,
+        "linearizedBaseContracts": [
+          7154
+        ],
+        "name": "Borrower",
+        "nameLocation": "301:8:18",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 7155,
+        "src": "292:82:18",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "40:334:18"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2025-07-13T16:29:36.940Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
