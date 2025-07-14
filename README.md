@@ -13,3 +13,6 @@ as collateral.
 
 
 Idea: Borrowers post "CONTRACTS" which loaners can accept. They can give the loan out and receive (in collateral the NFT or wtv)
+
+## TODO: 
+    1. Continue with TicketFactory.sol

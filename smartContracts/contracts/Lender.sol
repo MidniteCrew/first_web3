@@ -20,7 +20,7 @@ contract Lender{
     }
 
     /// @notice Function to send loan to a borrower
-    function sendToBorrower(address payable _from, address payable _to, uint 256 _amount, uint256 _collateral_Id) external payable {
+    function sendToBorrower(address payable _from, address payable _to, uint256 _amount, uint256 _collateral_Id) external payable {
         // Step 1: Ensure that the sender has enough ETH
         require (msg.value >= _amount, "Insufficient funds! Add more ETH");
         
