@@ -4,6 +4,7 @@ pragma solidity ^0.8.0;
 /// @notice This file stores all the data related to tickets (i.e. owners, lenders)
 
 import "@openzeppelin/contracts/access/Ownable.sol";
+import "./Ticket.sol";
 
 contract Ledger is Ownable {
 
